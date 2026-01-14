@@ -1,43 +1,52 @@
+# SCOPE Project: Cognitive Detection
 
+## Environment Setup
+
+Create and activate the conda environment:
+
+```bash
 conda create --name edu-cognition python=3.9
+conda activate edu-cognition
+```
 
+Install dependencies:
+
+```bash
 pip install dlib
 pip install mediapipe
+```
 
-conda activate edu-cognition
+## Experiments
 
+### Model Variations
 
+- **v1**: Inception frame-level feature + temporal pooling (transformer encoder) + classifier (No Position Encoding).
+- **v2**: v1 + Position Encoding.
+- **v3**: v2 + Mixture of Experts (MoE).
 
-#first experiment
-# Inception frame-level feature  +  temporal pooling (transformer encoder)+ classifier
-# use model_inception_v1.py , no position encoding
-python train.py --model_type v1
-python test.py --model_type v1
+### Usage
 
-Task B Accuracy: 0.4615
-Task E Accuracy: 0.5216
-Task C Accuracy: 0.7014
-Task F Accuracy: 0.7852
+**Train:**
 
+```bash
+python train.py --model_type v1  # Replace v1 with v2 or v3
+```
 
-# v2= v1+ Position Encoding 
-python train.py --model_type v2
-python test.py --model_type v2
+**Test:**
 
-Task B Accuracy: 0.4627
-Task E Accuracy: 0.5230
-Task C Accuracy: 0.7031
-Task F Accuracy: 0.7846
+```bash
+python test.py --model_type v1   # Replace v1 with v2 or v3
+```
 
+### Results Summary
 
-# v3= v2 + MoE 
-python train.py --model_type v3
-python test.py --model_type v3
+| Model | Description | Task B Accuracy | Task E Accuracy | Task C Accuracy | Task F Accuracy |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **v1** | Inception + Transformer (No PE) | 0.4615 | 0.5216 | 0.7014 | 0.7852 |
+| **v2** | v1 + Position Encoding | 0.4627 | 0.5230 | 0.7031 | 0.7846 |
+| **v3** | v2 + MoE | 0.3684 | 0.5255 | 0.7016 | 0.7861 |
 
-Task B Accuracy: 0.3684
-Task E Accuracy: 0.5255
-Task C Accuracy: 0.7016
-Task F Accuracy: 0.7861
+## TODO
 
-#TODO1  explore different MoE dedsign to improve
-#TODO2  combine AUs and VA to train v2
+- [ ] Explore different MoE designs to improve performance.
+- [ ] Combine AUs (Action Units) and VA (Valence/Arousal) to train v2.

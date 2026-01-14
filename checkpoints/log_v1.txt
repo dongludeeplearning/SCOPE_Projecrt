@@ -1,0 +1,68 @@
+Training started at 2025-10-29 21:11:03
+Training started at 2025-10-29 21:22:13
+Training started at 2025-10-29 21:23:26
+Training started at 2025-10-29 21:23:54
+Training started at 2025-10-29 21:39:34
+Training started at 2025-10-29 21:40:48
+Epoch 1 - Train Loss: 3.6849 - Train Acc: [0.41835342281195054, 0.4849397699876004, 0.6843373666506216, 0.7795582516186209]
+Epoch 1 - Combined Score: -3.0931
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 2 - Train Loss: 3.5989 - Train Acc: [0.4182530207088195, 0.4798996090709445, 0.6870682907032679, 0.7833534323666469]
+Epoch 2 - Combined Score: -3.0067
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 3 - Train Loss: 3.5755 - Train Acc: [0.4322088449834341, 0.49512049264936564, 0.6883735115090048, 0.7834337536290468]
+Epoch 3 - Combined Score: -2.9757
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 4 - Train Loss: 3.5690 - Train Acc: [0.4383534230740674, 0.4832731024687549, 0.688775118341647, 0.7840562436415488]
+Epoch 4 - Combined Score: -2.9704
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 5 - Train Loss: 3.5652 - Train Acc: [0.4449598488139819, 0.4855220991444875, 0.6872891734163445, 0.7836144755044615]
+Epoch 5 - Combined Score: -2.9648
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 6 - Train Loss: 3.5632 - Train Acc: [0.44162651551775184, 0.4976506136088486, 0.6886747155562941, 0.7836747168237904]
+Epoch 6 - Combined Score: -2.9603
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 7 - Train Loss: 3.5575 - Train Acc: [0.440903624389545, 0.4800200906324099, 0.6882329482091478, 0.7833735131355654]
+Epoch 7 - Combined Score: -2.9593
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 8 - Train Loss: 3.5518 - Train Acc: [0.44807229887649236, 0.4981526215392423, 0.6889759207525885, 0.7838956010808428]
+Epoch 8 - Combined Score: -2.9471
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 9 - Train Loss: 3.5536 - Train Acc: [0.4505622584058578, 0.4910241071538753, 0.6883132699921907, 0.7837148774460138]
+Epoch 9 - Combined Score: -2.9502
+No improvement (1/5)
+Epoch 10 - Train Loss: 3.5541 - Train Acc: [0.4498393669544932, 0.4914257135915469, 0.6885341541235706, 0.7834337534854211]
+Epoch 10 - Combined Score: -2.9508
+No improvement (2/5)
+Epoch 11 - Train Loss: 3.5504 - Train Acc: [0.45104418666247864, 0.4949196890894189, 0.6887148771300373, 0.7833935918578182]
+Epoch 11 - Combined Score: -2.9459
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 12 - Train Loss: 3.5458 - Train Acc: [0.4518473995557751, 0.4982329424964376, 0.6889759209141674, 0.784196805738541]
+Epoch 12 - Combined Score: -2.9400
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 13 - Train Loss: 3.5405 - Train Acc: [0.44801205777260195, 0.4952811357845743, 0.6893574474805809, 0.784056244700788]
+Epoch 13 - Combined Score: -2.9364
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 14 - Train Loss: 3.5426 - Train Acc: [0.4505823384386947, 0.49785141652247994, 0.6880522261182946, 0.7838152792977999]
+Epoch 14 - Combined Score: -2.9375
+No improvement (1/5)
+Epoch 15 - Train Loss: 3.5376 - Train Acc: [0.4512449897915484, 0.49516065386404473, 0.6890160816441099, 0.7840964031686266]
+Epoch 15 - Combined Score: -2.9327
+ Model saved at ./checkpoints/inception-transformer .pth
+Epoch 16 - Train Loss: 3.5403 - Train Acc: [0.4520080422960132, 0.5046787262860551, 0.6888353588351284, 0.7831124682562897]
+Epoch 16 - Combined Score: -2.9331
+No improvement (1/5)
+Epoch 17 - Train Loss: 3.5408 - Train Acc: [0.448775109864143, 0.49664659799940614, 0.688915679989809, 0.7838755195937961]
+Epoch 17 - Combined Score: -2.9363
+No improvement (2/5)
+Epoch 18 - Train Loss: 3.5433 - Train Acc: [0.45126506971666613, 0.4949799298342452, 0.6879518249487302, 0.7831927906317884]
+Epoch 18 - Combined Score: -2.9390
+No improvement (3/5)
+Epoch 19 - Train Loss: 3.5423 - Train Acc: [0.4514257125646235, 0.496767079507012, 0.688674715717873, 0.7833333517952138]
+Epoch 19 - Combined Score: -2.9372
+No improvement (4/5)
+Epoch 20 - Train Loss: 3.5400 - Train Acc: [0.45084338274346775, 0.49857430806361047, 0.6890361611922103, 0.7835542354957167]
+Epoch 20 - Combined Score: -2.9345
+No improvement (5/5)
+ Early stopping triggered!
+Training complete!

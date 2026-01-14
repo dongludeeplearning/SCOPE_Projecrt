@@ -84,14 +84,14 @@ def main():
     
     # Determine checkpoint path
     if args.checkpoint is None:
-        checkpoint_filename = f"inception-transformer-{args.model_type}-bestacc.pth"
+        checkpoint_filename = f"inception-transformer-{args.model_type}.pth"
         checkpoint_path = os.path.join(args.checkpoint_dir, checkpoint_filename)
     else:
         checkpoint_path = args.checkpoint
     
     # Determine log file path
     if args.log_file is None:
-        args.log_file = os.path.join(args.checkpoint_dir, f"test_log_{args.model_type}-bestacc.txt")
+        args.log_file = os.path.join(args.checkpoint_dir, f"test_log_{args.model_type}.txt")
     
     # Ensure log directory exists
     log_dir = os.path.dirname(args.log_file)

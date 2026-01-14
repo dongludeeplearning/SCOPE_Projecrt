@@ -1,0 +1,9 @@
+Testing started at 2026-01-12 14:32:20
+Loaded model from ./checkpoints/inception-transformer .pth
+Test Accuracy: [0.46149826719578135, 0.5216027989412434, 0.7013937434772166, 0.7851916528225776]
+Task B Accuracy: 0.4615
+Task E Accuracy: 0.5216
+Task C Accuracy: 0.7014
+Task F Accuracy: 0.7852
+Average Accuracy: 0.6174
+Testing completed at 2026-01-12 14:33:58
